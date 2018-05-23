@@ -23,6 +23,8 @@
 }
 .navbar-list li a{
 	color: white;
+	font-family: aclonica;
+	text-decoration: none;
 }
 .navbar-list li a:hover{
 	text-decoration: none;
@@ -37,9 +39,10 @@
 }
 .porpose{
 	color: solid grey;
-	font-family: oleo;
+	font-family: Pacifico, cursives;
 	font-size: 24px;
 	padding-bottom: px;
+	margin-top: -10px;
 }
 .welcome{
 	font-size: 72px;
@@ -67,13 +70,20 @@
 	background-color:#FFFFFF; 
 }
 .box1{
-	height:450px;
+	height:600px;
 	text-align: ;
 	padding: ;
-	background-color:white ; 
+	background-color:white; 
+}
+.box2{
+	height:450px;
+	text-align:center ;
+	padding:20px ;
+	background-color:#F5F5DC ; 
+	color: ;
 }
 .card{
-	height: 300px;
+	height: 350px;
 	width: 100px;
 	position: relative;
 	perspective:500px;
@@ -88,13 +98,13 @@
 	width: 300px;
 	top: 0;
 	left: 0;
-	background: rgb(223,105,78);
+	background: #D8BFD8;
 	backface-visibility:hidden;
-	transition:2s;
+	transition:1s;
 	font-color:solid white;
 }
 .back{
-	transform:rotatey(180deg);
+	transform:rotatey(180deg );
 }
 .card:hover .front{
 	transform:rotatey(-180deg);
@@ -117,9 +127,11 @@ body{
 }
 .card-text{
 	text-align: center;
-	padding-top: 20px;
+	padding-bottom: 40px;
 	margin-left: 20px;
 	margin-right: 20px;
+	font-family: 'Playball', cursive;
+	font-size: 15px;
 }
 .block{
 	margin: auto;
@@ -133,5 +145,32 @@ body{
 	bottom: 0;
 	left: 10%;
 	z-index: -1;
-}	
+}
+.contact{
+	text-align: center;
+	font-family: aclonica;
 
+}
+.icon{
+	display:inline;
+	padding-left:15px;
+}
+.box5{
+	height:px;
+	text-align:center;
+	padding-top:30px ;
+	background-color:white; 
+	font-family: playball;
+}	
+.box7{
+	display: inline;
+	text-align: center;
+	font-family: aclonica;
+	height: ;
+}
+.container a{
+	text-decoration: none;
+}
+.icon hover{
+	color: green;
+}
