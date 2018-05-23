@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main-header{
+	height: 100vh;
+	background-image: url("pc4.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.navbar-list{
+	float:right;
+	margin-right: 100px;
+	margin-top: 16px;
+}
+.navbar-list li{
+	display: inline;
+	padding:10px;
+	text-transform: uppercase;
+}
+.navbar-list li a{
+	color: white;
+}
+.navbar-list li a:hover{
+	text-decoration: none;
+	padding-bottom: 8px;
+	border-bottom: 3px solid blue;
+}
+.show{
+	text-align: center;
+	padding-top: 110px;
+	line-height: 5px;
+	
+}
+.porpose{
+	color: solid grey;
+	font-family: oleo;
+	font-size: 24px;
+	padding-bottom: px;
+}
+.welcome{
+	font-size: 72px;
+	font-family: aclonica;
+}
+.logo1{
+	font-size: 10px;
+	font-family: aclonica;
+	padding: 40px;
+	padding-right: 30px;
+
+}
+.text{
+	margin: 50px;
+	top: 400px;
+	text-align: center;
+	font-family: josefin;
+	font-size: 15px;
+	font-style:;
+}
+.box{
+	height:300px;
+	text-align: ;
+	padding: ;
+	background-color:#FFFFFF; 
+}
+.box1{
+	height:450px;
+	text-align: ;
+	padding: ;
+	background-color:white ; 
+}
+.card{
+	height: 300px;
+	width: 100px;
+	position: relative;
+	perspective:500px;
+	text-align: center;
+	margin-left: 15px;
+	padding: 110px;
+
+}
+.faces{
+	position: absolute;
+	height: 100%;
+	width: 300px;
+	top: 0;
+	left: 0;
+	background: rgb(223,105,78);
+	backface-visibility:hidden;
+	transition:2s;
+	font-color:solid white;
+}
+.back{
+	transform:rotatey(180deg);
+}
+.card:hover .front{
+	transform:rotatey(-180deg);
+
+}
+.card:hover .back{
+	transform:rotatey(0deg);
+}
+#particles-js{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -999;
+	background-color: blue;
+}
+body{
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+.card-text{
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.block{
+	margin: auto;
+	position: relative;
+}
+.block:after{
+	display: block;
+	content: "";
+	box-shadow:0 2px 100px rgb;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	z-index: -1;
+}	
+
